@@ -1,5 +1,4 @@
-
-
+/*
 // it will directly goes to the amazon website
 // and in search box it will search jackets for men
 // and then it will click enter
@@ -23,7 +22,10 @@ public static void main(String[] args) throws InterruptedException
 	driver.get("https://www.amazon.com");
 	driver.findElement(By.id("twotabsearchtextbox")).sendKeys("jackets for men");
 	driver.findElement(By.id("twotabsearchtextbox")).sendKeys(Keys.ENTER);
+	
 	Thread.sleep(4000);
 	driver.quit();
 }
 }
+
+*/
